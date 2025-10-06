@@ -1,0 +1,22 @@
+/*My CSS comment*/
+/*
+MY COLOR PALETTE
+Moss - #514b23
+Blush - #c96480
+Kiwi - #bbbe64
+Gumball - #779cab
+Plum - #59114d
+*/
+
+body {
+    background-color: #bbbe64
+}
+
+button {
+    background-color: #59114d;
+    color: white
+}
+
+button:hover {
+    background-color: #514b23;
+}
