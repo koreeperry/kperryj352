@@ -9,14 +9,36 @@ Plum - #59114d
 */
 
 body {
-    background-color: #bbbe64
+    background-color: #bbbe64;
+    text-align: center;
 }
 
 button {
     background-color: #59114d;
-    color: white
+    color: #c96480;
+    text-transform: uppercase;
+    width: 200px;
+    padding: 10px;
+    margin-top:  50px;
+    border: none;
+    border-radius: 20px;
+    font-family: "Smooch Sans", sans-serif;
 }
 
 button:hover {
     background-color: #514b23;
+    font-family: "Smooch Sans", sans-serif;
+    
+}
+
+h1 {
+    font-family: "Smooch Sans", sans-serif;
+    letter-spacing: 10px;
+    line-height: 10px;
+}
+
+h2 {
+    font-family: "Dorsa", sans-serif
+    letter-spacing: 12px;
+    line-height: 10px;
 }
