@@ -9,13 +9,12 @@ Plum - #59114d
 */
 
 body {
-    background-color: #cbc0ad;
+    background-color: #bbbe64;
     text-align: center;
-    
 }
 
 button {
-    background-color: #443742;
+    background-color: #59114d;
     color: #c96480;
     text-transform: uppercase;
     width: 200px;
@@ -26,51 +25,20 @@ button {
     font-family: "Smooch Sans", sans-serif;
 }
 
-
 button:hover {
     background-color: #514b23;
     font-family: "Smooch Sans", sans-serif;
     
 }
 
-button a{
-    color: #c96480;
-}
-
 h1 {
     font-family: "Smooch Sans", sans-serif;
     letter-spacing: 10px;
-    word-spacing: normal
-   
-    
+    line-height: 10px;
 }
 
-.jobtitle {
-    font-family: "Smooth Sans", sans-serif
-    
+h2 {
+    font-family: "Dorsa", sans-serif
+    letter-spacing: 12px;
+    line-height: 10px;
 }
-
-#navigation {
-    background-color: #361d2e;
-    color: #f4eee3
-}
-
-#topper {
-    background-color: beige
-}
-
-
-#headshot {
-    width:300px;
-    border-radius: 900px;
-    border: none;
-}
-
-@media (min-width:576px) {
-    h1 {
-        font-size: 100px
-    }
-}
-
-
-
