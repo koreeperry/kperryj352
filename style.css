@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2e2e2e;
+    color: #807e7e; 
+    font-family: "Playfair Display", serif;
+    line-height: 1.7;
+    font-size: 18px;
+}
+
+#topper {
+    position: relative;
+    width: 100%;
+    height: 420px; /* not too big */
+    background-image: url('codefinalheadline.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.headline {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 850px;
+    padding: 0 1rem;
+    z-index: 3;
+    color: white;
+    background: rgba(0,0,0,0.45);
+}
+
+.headline h1 {
+    font-size: 2.4rem;
+    line-height: 1.2;
+    margin-bottom: 0.75rem;
+}
+
+.headline h2 {
+    font-size: 1.15rem;
+    font-weight: normal;
+    color: #e5e5e5;
+    
+    
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: floralwhite;
+}
+
+
+#content {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+}
+
+
+.bars {
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(
+        90deg,
+        rgba(42, 41, 41, 0.55) 0px,
+        rgba(26, 26, 26, 0.55) 10px,
+        transparent 10px,
+        transparent 38px
+        );
+    z-index: 1;
+}
+
+#topper::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 120px;
+    background: linear-gradient(
+        to bottom,
+        rgba(46,46,46,0),
+        #2e2e2e
+    );
+    z-index: 2;
+}
+
+.article-image {
+    max-width: 650px;       
+    margin: 40px auto;     
+    text-align: center;
+}
+
+.article-image img {
+    width: 100%;             
+    height: auto;
+    display: block;
+}
+
+.commissioner p:not(.caption) {
+    font-size: 14px;
+    color: #9a9a9a;
+    margin-top: 8px;
+    text-align: left;
+    max-width: 600px;
+}
+
+.caption {
+    font-family: "Fjalla One", sans-serif;
+}
+
+.read-more-section {
+  text-align: center;
+  margin: 40px auto;
+  color: #e5e5e5;
+}
+
+.read-more-section a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.pull-quote {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #e5e5e5;
+  max-width: 600px;
+  margin: 40px auto;
+  text-align: center;
+  border-left: 4px solid #9a9a9a;
+  padding-left: 12px;
+}
